@@ -1,15 +1,15 @@
 Running and experimenting with Kafka locally 
 
-#Goal:
+# Goal:
 - Set up a local kafka env with minimal effort  
 - Create a Java (spring-boot) example with basic Kafka `producer` and `consumer` configurations 
 
-#Prereqs:
+# Prereqs:
 - docker
 - spring-boot
 - java 8+
 
-# Setting up the Kafka
+# Setting up a single node Kafka environment 
 All of the services needed to get kakfa working is defined in the `docker/local-kafka-setup.yml` file. There are four services defined in that file 
 -  *zookeeper*  - Required to run Kafka
 -  *kafka*   - Kafka
