@@ -1,5 +1,9 @@
 # Running and experimenting with Kafka locally 
 
+## The blog posts 
+- [Part 1](https://tech.chitamoor.com/posts/local-kafka-development-part-1/)
+- [Part 2](https://tech.chitamoor.com/posts/local-kafka-development-part-2/)
+
 ## Goal:
 - Set up a local kafka env with minimal effort  
 - Create a Java (spring-boot) example with basic Kafka `producer` and `consumer` configurations 
